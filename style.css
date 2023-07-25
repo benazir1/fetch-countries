@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+
+body{
+    margin:5px 15px;
+    height: 40px;
+  width:40px;
+   display:flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.card
+{
+    margin: 10px 0px;
+    border: 1px solid #3f36b8;
+    border-radius: 2px;
+    padding: 10px;
+    position: relative;
+   
+}
+.card-body
+{
+    background-image: linear-gradient(to right, #b9b5ac , #454c4c);    
+}
+img
+{
+    height: 120px;width:180px;
+    text-align: center;
+    display: block;
+    margin:auto;
+}
+
